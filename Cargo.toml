@@ -8,7 +8,7 @@ repository = "https://github.com/LittleGuest/gpui-regex-visualizer"
 description = "Regex railroad visualizer built on GPUI Kit: parse a pattern into an AST, lay it out as a railroad diagram, and edit it by clicking nodes."
 readme = "README.md"
 keywords = ["regex", "regex-syntax", "syntax", "visualizer", "gui"]
-categories = ["gui", "gpui"]
+categories = ["gui"]
 
 [lib]
 name = "gpui_regex_visualizer"
