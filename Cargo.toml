@@ -1,0 +1,23 @@
+[package]
+name = "gpui-regex-visualizer"
+version = "0.1.0"
+edition = "2024"
+license = "MIT"
+authors = ["LittleGuest"]
+repository = "https://github.com/LittleGuest/gpui-regex-visualizer"
+description = "Regex railroad visualizer built on GPUI Kit: parse a pattern into an AST, lay it out as a railroad diagram, and edit it by clicking nodes."
+readme = "README.md"
+keywords = ["regex", "regex-syntax", "syntax", "visualizer", "gui"]
+categories = ["gui", "gpui"]
+
+[lib]
+name = "gpui_regex_visualizer"
+path = "src/lib.rs"
+
+[dependencies]
+gpui-kit = "0.7.1"
+regex = "1.13.1"
+regex-syntax = "0.8.11"
+
+[dev-dependencies]
+gpui-kit = { version = "0.7", features = ["test-support"] }
